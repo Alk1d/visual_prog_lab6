@@ -38,7 +38,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::onErrorButtonClicked()
 {
-    int ret = QMessageBox::critical(this, tr("My Application"),
+    int ret = QMessageBox::critical(this, tr("visual_prog_lab6"),
                                    tr("The document has been modified.\n"
                                       "Do you want to save your changes?"),
                                    QMessageBox::Save | QMessageBox::Discard
@@ -48,7 +48,7 @@ void MainWindow::onErrorButtonClicked()
 
 void MainWindow::onWarningButtonClicked()
 {
-    int ret = QMessageBox::warning(this, tr("My Application"),
+    int ret = QMessageBox::warning(this, tr("visual_prog_lab6"),
                                    tr("The document has been modified.\n"
                                       "Do you want to save your changes?"),
                                    QMessageBox::Save | QMessageBox::Discard
@@ -58,7 +58,7 @@ void MainWindow::onWarningButtonClicked()
 
 void MainWindow::onInformationButtonClicked()
 {
-    int ret = QMessageBox::information(this, tr("My Application"),
+    int ret = QMessageBox::information(this, tr("visual_prog_lab6"),
                                    tr("The document has been modified.\n"
                                       "Do you want to save your changes?"),
                                    QMessageBox::Save | QMessageBox::Discard
